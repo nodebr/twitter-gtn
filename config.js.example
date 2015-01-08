@@ -1,0 +1,24 @@
+module.exports = {
+
+  // The auhtorization parameters, so we can connect to the
+  // Twitter Stream API and answer to the winner
+  oauth: {
+    consumer_key: '',
+    consumer_secret: '',
+    access_token: '',
+    access_token_secret: ''
+  },
+
+  // A range to generate the random integer
+  number: {
+    min: 0,
+    max: 100
+  },
+
+  // How many tries a username have to guess the number until
+  // it is blocked (to prevent bots)
+  tries: 5,
+
+  // Keyword to listen in the stream
+  keyword: '#guessthenumber'
+};
