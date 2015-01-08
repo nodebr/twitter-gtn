@@ -1,9 +1,9 @@
 ## Guess the number, via Twitter
 
-This is a multi user, mini game inspired by [Luis Cipriani][0]'s [gist][1], to
-participate, users post a tweet with a configurable keyword and a number
-between a configurable range, users can tri to guess the number until a winner
-appears or the tries limit is reached.
+This is a multi user, mini game inspired by [Luis Cipriani's][0] [gist][1]. To
+participate, the user needs to post a tweet with a configurable keyword and a
+number between a configurable range. Users can try to guess the number until a
+winner appears or the tries limit is reached.
 
 ![demo](assets/demo.png)
 
@@ -13,7 +13,7 @@ appears or the tries limit is reached.
 git clone git@github.com:nodebr/twitter-gtn.git
 cd twitter-gtn
 npm install
-# Now create a file called config.js and add your keys in it.
+# Now create a file called config.js and add your keys in it
 # See config.js.example if you need help
 node app.js
 ```
